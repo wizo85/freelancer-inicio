@@ -1,0 +1,27 @@
+:root {
+    --white: #ffffff;
+    --black: #212121;
+    --primarycolor: #fcc107;
+    --secundarycolor: #0097a7;
+    --gray: #757575;
+   
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+
+}
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--black);
+}
+span {
+    font-size: 2.3rem;
+}
+img {
+    width:min-content;
+}
