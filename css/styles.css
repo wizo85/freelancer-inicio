@@ -32,10 +32,14 @@ span {
     background-color: var(--secundarycolor);
 }
 .nav-leader {
-    
     display: flex;
-    justify-content: space-between;
-        
+    flex-direction: column;       
+}
+@media (min-width: 480px) {
+    .nav-leader {
+        flex-direction: row;
+
+    }
 }
 .nav-leader a {
     color: var(--white);
@@ -44,10 +48,7 @@ span {
     font-weight: 700; 
     padding: 1rem;
 }
-@media (min-width: 480px) {
-    
-    
-}
+
 .nav-leader a:hover {
     background-color: var(--primarycolor);
     color: var(--black);
